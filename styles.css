@@ -1,95 +1,79 @@
-header {
-    font-family: 'Alegreya SC';
-    background-color: #fffadf;
-    height: 30px; 
-    width: 150px;
-    padding: 10px; 
-    float: left;
-    margin-left: 300px;
-    text-align: center;
-    font-size: 25px;
-    }
-
-    
-    ul {
-    list-style-type: none;
-    margin: 0;
-  	padding: 0;
-  	overflow: hidden;
-    font-family: 'Alegreya SC';
-    margin-right: 300px;
-    margin-top: 40px;
+    body {
+    background-image: url("oriental-tiles.png");
     }
     
-    li {
-  	float: right;
-    
-	  }
+    header {
+    background-color: white;
+    font-family: 'Alegreya SC';
+    border-bottom-style: solid;
+    border-bottom-color: lightblue;
+    }
 
-	  li a {
-  	display: block;
-  	padding: 10px;
-  	background-color: #fffadf;
-    height: 30px;
+    nav {
+    float: right;
     font-size: 20px;
-    
-	  }
+    padding: 5px;
+    margin-right: 300px;
+    }
+
+    h1 {
+    display: inline;
+    background-color: lightblue;
+    margin-left: 300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+
+    section.base {
+    max-width: 800px;
+    margin: auto;
+    }
 
     article {
     float: left;
     background-color: white;
     width: 500px;
+    height: 700px;
     padding: 10px;
-    margin-right: 50px;
-    margin-left: 300px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px; 
+    margin-top: 20px;
     }
 
     article img {
-    float: left;
-    height: 150px;
     width: 150px;
+    height: 150px;
+    float: left;
     margin-right: 15px;
     margin-top: 10px;
-    
     }
 
     aside {
     float: right;
-    background-color: white;
-    width: 180px;
     padding: 10px;
-    margin-right: 300px;
-    margin-top: 40px;
-    text-align: center;
+    background-color: white;
+    margin-top: 20px;
     }
 
     aside img {
     float: left;
-    width: 35px;
-    height: 35px;
-    padding: 12px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
     }
 
-    h2 {
-    font-family: 'Asap';
-    font-size: 20px;
+    aside h2 {
+    text-align: center;
     }
 
-    article p {
+    h2, p {
     font-family: 'Asap';
     }
 
     footer {
     clear: both;
+    background-color: white;
     text-align: center;
+    padding: 10px;
     border-top-style: solid;
-    background-color: #fffadf;
-    padding: 5px;
-    font-family: 'Alegreya SC';
-    }
-
-    body {
-    background-image: url("oriental-tiles.png");
+    border-top-color: lightblue;
     }
